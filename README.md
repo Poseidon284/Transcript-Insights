@@ -22,10 +22,7 @@ This project processes audio and video files to generate transcripts, recognizes
 - **Transcript + Topics → Summarization (LLM RAG)**
 
 ### Files and Directories
-- `transcribe.py`: Handles the speech-to-text conversion.
-- `topic_recognition.py`: Performs topic modeling using LDA.
-- `summarize.py`: Summarizes the transcript using the RAG approach.
-- `main.py`: Orchestrates the full pipeline (transcription → topic recognition → summarization).
+- `c5ids.ipynb`: Handles the speech-to-text conversion, Performs topic modeling using LDA, Summarizes the transcript using the RAG approach.
 
 ## Dependencies
 - **Speech-to-Text**: `whisper`
