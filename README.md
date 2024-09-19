@@ -7,7 +7,7 @@ This project processes audio and video files to generate transcripts, recognizes
 1. **Audio/Video Input**: Accepts multiple formats of audio and video files.
 2. **Transcription**: Automatically converts speech from the input files into text using speech-to-text technology.
 3. **Topic Recognition**: Identifies main topics from the transcript using the LDA model.
-4. **Summarization**: Produces concise summaries of the transcripts using RAG, which improves accuracy by pulling relevant information from a database during the generation process.
+4. **Summarization**: Produces concise summaries of the transcripts using RAG, which improves accuracy by pulling relevant information from a context during the generation process.
 
 ## Architecture
 1. **Input Stage**: Audio/Video files are uploaded to the platform.
